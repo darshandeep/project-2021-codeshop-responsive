@@ -1,9 +1,14 @@
+nav {text-align: right; text-rendering: optimizeSpeed;
+    
+}
 
 
-h2 {font-style:normal; font-size: 2.5rem;  }
 
 
-h3.vide{color: rgb(252, 2, 127); font-style: inherit; font-size: 2rem;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+
+h3.vide{color: rgb(252, 2, 127); 
+    font-style: inherit; font-size: 2rem;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
 
 
 html{background-image:url(photos/images\ \(1\).jpg);width: auto; height: auto; background-repeat: no-repeat;}
@@ -15,7 +20,7 @@ html{background-image:url(photos/images\ \(1\).jpg);width: auto; height: auto; b
 
 
 iframe.ytvid3{
-    margin-left:2rem;
+    margin-left:2rem; text-rendering: optimizeSpeed;
     
 
     
@@ -23,12 +28,11 @@ iframe.ytvid3{
 }
 
 iframe.ytvid2{
-    margin-left:2rem;
-
+    margin-left:2rem; text-rendering: optimizeSpeed;
     margin-right: 1.5rem;}
 
 
-iframe.ytvid1{
+iframe.ytvid1{ text-rendering: optimizeSpeed;
     margin-left: 2rem;
 }
 
@@ -37,16 +41,16 @@ iframe.ytvid1{
 /*  contact us   */
 
 
-h3.cnt{color: rgb(252, 2, 127); font-style: italic; font-size: 2rem;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-align:center; }
+h3.cnt{color: rgb(252, 2, 127); text-rendering: optimizeSpeed; font-style: italic; font-size: 2rem;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-align:center; }
 
-div.cnt{color: rgb(0, 0, 0); font-style: inherit ; text-align: center;
+div.cnt{color: rgb(0, 0, 0); font-style: inherit ;text-rendering: optimizeSpeed; text-align: center;
 
 
 }
 
 .textarea-cnt{
 
-    max-width: 16rem; min-width: 16rem; max-height: 11rem; min-height: 11rem;
+    max-width: 16rem; text-rendering: optimizeSpeed; min-width: 16rem; max-height: 11rem; min-height: 11rem;
 }
 
 
@@ -55,7 +59,7 @@ div.cnt{color: rgb(0, 0, 0); font-style: inherit ; text-align: center;
 
 .button-cnt {
     
-    text-align: center;
+    text-align: center
 
 
 }                                                    
