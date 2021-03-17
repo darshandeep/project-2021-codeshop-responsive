@@ -1,6 +1,6 @@
 *{margin: 0px;
   padding: 0px;
-box-sizing: border-box;}
+}
 
 .header{
     background-color: rgba(215, 250, 241, 0.315);
@@ -8,6 +8,7 @@ box-sizing: border-box;}
     margin: 0 ; padding-top: 1rem;
     padding-bottom: 1rem;  display: flex;
     min-width: fit-content;
+    max-width: 50%;
     
 }
 
@@ -333,7 +334,7 @@ cursor: pointer;}
         text-align: center
     }
 .right-text2-header{
-    margin-right: 2rem;
+    margin-right: 1.24rem;
 }
 .left-text-header{
     margin-right: 1rem;
@@ -364,7 +365,7 @@ cursor: pointer;}
 .box-card{
     display: flex;
     flex-direction: column;
-    margin-left: 3.5rem;
+    margin-left: -2.5rem;
     
 
 } 
@@ -376,8 +377,8 @@ padding: 0;
 
 }
 .Allcourse{
-    margin-left:26% ;
-    margin-right: 13%;
+    margin-left:13% ;
+    margin-right: 0rem;
 
     
 }
@@ -436,7 +437,7 @@ margin-top: 1.5rem;
 
 .footer{
     background-color: rgba(0, 0, 0, 0.788); color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-overflow: hidden;
+
 }
 
 .clickFooter{
@@ -455,7 +456,7 @@ overflow: hidden;
 }
 
 .tou{
-   margin-left: 5.5rem;margin-right: 2rem;
+   margin-left: 1.4rem;margin-right: 1rem;
 }
 .ck{ margin-right: 2rem;
    
@@ -463,7 +464,7 @@ overflow: hidden;
 .faq{ margin-right: 2rem; }
    
 .Privacy{
-    margin-left: 0rem;
+    margin-right: 1rem;
 
 }
 
