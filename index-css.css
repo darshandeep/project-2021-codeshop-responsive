@@ -8,7 +8,7 @@
     margin: 0 ; padding-top: 1rem;
     padding-bottom: 1rem;  display: flex;
     min-width: fit-content;
-    max-width: 50%;
+    max-width: 100%;
     
 }
 
@@ -196,6 +196,7 @@ margin-bottom: 0rem;margin-top: 10rem;
 .box-card{
     display: flex;
 flex-direction: row;
+margin-left: 3.9rem;
 
 }
 .row2{
@@ -251,6 +252,7 @@ overflow: hidden;
     display: flex;
     flex-direction: row;
     margin-bottom: 1rem;
+    margin-left: 3.3rem;
     }
 .cc{
     align-content: center;
@@ -314,6 +316,7 @@ cursor: pointer;}
       text-align: left;
       margin-top: 3rem;
       padding-bottom: 2.5rem;
+     padding-left: 2rem;
       
       
       
@@ -334,7 +337,7 @@ cursor: pointer;}
         text-align: center
     }
 .right-text2-header{
-    margin-right: 1.25rem;
+    margin-right: 1.24rem;
 }
 .left-text-header{
     margin-right: 1rem;
@@ -366,7 +369,7 @@ cursor: pointer;}
     display: flex;
     flex-direction: column;
     margin-left: -2.5rem;
-    
+    padding-left: 1.5rem;
 
 } 
 
