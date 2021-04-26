@@ -120,13 +120,13 @@ margin-bottom: 0rem;margin-top: 0rem;
 
 .popular-courses{
     background-color: rgba(176, 197, 201, 0.247);
-margin-bottom: 0rem;margin-top: 10rem;
+margin-bottom: 0rem;margin-top: 10rem; 
 
     
     text-align: center;
     justify-content: center;
     color: black;
-    font-size: 35px;
+    font-size: 2.1875rem;
     font-weight: bolder;
     font-family: sans-serif;
     padding-top: 5rem;cursor:default;
@@ -138,26 +138,27 @@ margin-bottom: 0rem;margin-top: 10rem;
     
     margin-top: 7rem;
     cursor:default;
+    overflow: hidden;
 }
 
 .card1{
     background-color: white;
-    border-radius: 25px;
+    border-radius: 1.5625rem;
     width: 17rem;
     height: 20rem;
-    margin-left: 3rem;
+    margin-left: 3rem; overflow: hidden;
 }
 
 .imgt{
     
     overflow: hidden;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;cursor:default;
+    border-top-right-radius:1.5625rem;
+    border-top-left-radius: 1.5625rem;cursor:default;
 }
 .txt-card1{
     text-align: center;
     margin-top: 0.5rem;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 700;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgba(0, 0, 0, 0.815);
@@ -310,7 +311,6 @@ cursor: pointer;}
 @media only screen and (max-width: 887px) {
   
   
-  
   .popular-courses{
       align-content: left;
       text-align: left;
@@ -328,7 +328,7 @@ cursor: pointer;}
    
    
     .container-index{
-        flex-direction: column;max-width: fit-content;
+        flex-direction: column;max-width: fit-content; overflow: hidden;
     }
     .img-index{
         max-width: fit-content;
@@ -361,7 +361,7 @@ cursor: pointer;}
     .p2{font-size: 17px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 
     .Allcourse{
-    overflow: hidden;
+   
     
     }
   
@@ -471,10 +471,11 @@ margin-top: 1.5rem;
 
 }
 
+@media only screen and (max-width: 352px) {
+    
 
 
-
-
+}
 
 
 }
