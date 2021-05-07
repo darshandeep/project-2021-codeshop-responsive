@@ -150,7 +150,7 @@ margin-bottom: 0rem;margin-top: 10rem;
 }
 
 .imgt{
-    
+   
     overflow: hidden;
     border-top-right-radius:1.5625rem;
     border-top-left-radius: 1.5625rem;cursor:default;
@@ -197,7 +197,7 @@ margin-bottom: 0rem;margin-top: 10rem;
 .box-card{
     display: flex;
 flex-direction: row;
-margin-left: 3.9rem;
+margin-left: 1rem;
 
 }
 .row2{
@@ -247,13 +247,15 @@ margin-left: 3.9rem;
 .footer{
     background-color: rgba(0, 0, 0, 0.788); color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 overflow: hidden;
+
 }
 
 .clickFooter{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-;
     margin-bottom: 1rem;
-    margin-left: 3.3rem;
+    margin-left: -3rem;
+  
     }
 .cc{
     align-content: center;
@@ -447,7 +449,10 @@ margin-top: 1.5rem;
 .clickFooter{
     display: flex;
     flex-direction: row;
-    margin-bottom: 1rem;
+    margin-bottom: 1.3rem;
+    
+    margin-left:3.2rem
+
     }
 .cc{
     align-content: center;
