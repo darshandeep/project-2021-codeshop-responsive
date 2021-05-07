@@ -360,10 +360,7 @@ cursor: pointer;}
     }
     .p2{font-size: 17px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 
-    .Allcourse{
-   
     
-    }
   
 .box-card{
     display: flex;
@@ -411,18 +408,22 @@ margin-top: 1.5rem;
    
     width: 4rem;
     height: 4rem;
-    border-radius: 1rem;
-    margin-left: 1rem;
+    border-radius: 0.5rem;
+    margin-left: 0.7rem;
     margin-right: 1rem;
+    margin-top: 0.6rem;
     padding-top: 0rem;
     align-content: bottom;
     text-align: bottom;
+    object-fit:scale-down;
+    
 }
 
 .txt-card1{
     margin-top: -3.5rem;
     font-size: 17px;
-    margin-left: 6rem;
+    margin-left: 6.3rem;
+    
     
     margin-bottom: 0;
    align-content: left;
