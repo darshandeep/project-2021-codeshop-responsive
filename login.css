@@ -4,16 +4,24 @@
     
     
   
-  overflow: hidden;
+
 }
 
 body{
- margin: 0;
- padding: 0;
+ margin:0 ;
+ padding-right:6rem ;
+ padding-top: 3rem;
 }
-
+.container{
+    margin: 0rem;overflow: hidden;
+    padding: 0;
+    border-radius: 3rem;
+    border-style:ridge;
+    box-shadow:20px 20px 50px 10px rgba(135, 136, 136, 0.596);
+    border-width: 0;
+}
 .bg-white{
- 
+    
     display: flex;
 flex-direction: row;
 margin: 0;
@@ -22,7 +30,8 @@ padding: 0;
 .left-img{
     margin: 0;
     padding: 0;
- 
+   
+    
 }
 
 .login{
@@ -36,9 +45,11 @@ padding: 0;
     margin-bottom: 0.5rem;
     margin-top: 5rem;
     padding: 0;
-    font-size: 24px;
-    font-weight: bold;
-    font-family:'Times New Roman', serif;
+    font-size: 22px;
+    font-family:sans-serif;
+    font-weight: bolder;
+    word-spacing: 4px;
+    
 
 }
 .fill-area{
@@ -51,7 +62,7 @@ padding: 0;
 }
 .enter-name{
  
-margin-top: 0.7rem;
+margin-top: 0rem;
 margin-left: 0;
 margin-right: 0;
 margin-bottom: 0;
@@ -71,7 +82,7 @@ border-right: hidden;
 .login-btn{
     margin: 0;
     padding: 0;
-    
+  
 }
 .button1{
     margin-top: 2rem;
@@ -82,4 +93,5 @@ border-right: hidden;
     border:hidden;
     border-radius: 0.5rem;
     font-size: 18px;
+   margin-bottom: 4rem;
 }
