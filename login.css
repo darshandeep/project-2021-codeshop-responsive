@@ -95,3 +95,40 @@ border-right: hidden;
     font-size: 18px;
    margin-bottom: 4rem;
 }
+
+@media only screen and (max-width: 887px) {
+  *{ 
+   }
+
+
+    .container {
+      overflow: visible;}
+
+.left-img{
+    width: .5rem;
+    height: .5rem;
+    padding-right:-0rem;
+    padding-left: 0rem;
+}
+
+body{
+    padding-right: 9.4rem;
+    padding-left: 2rem;
+
+ 
+
+    margin-right: -9rem;
+    margin-left: -8rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+
+
+.fill-area{
+    margin-left: -3rem;
+    margin-top:15rem;
+}
+
+}
+
