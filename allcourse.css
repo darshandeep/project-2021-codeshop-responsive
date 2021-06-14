@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: -moz-hidden-unscrollable;
+}
+
+h1{
+    align-content: center;
+    text-align: center;
+    font-size: 36px;
+    font-family:monospace;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.videos-tabel{
+    
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.vid1{
+    height: 19rem;
+    width: 100%;
+    margin-left: 1rem;
+    overflow: hidden;
+}
+
+.vid2{
+    height: 19rem;
+    width: 100%;
+    
+    margin-left: 3rem;}
+
+
+
+
+
+
+
+
+   
+.footer{
+    background-color: rgba(0, 0, 0, 0.788); color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+overflow: hidden; margin-top: 4rem;
+
+}
+
+.clickFooter{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+   
+  
+    }
+.cc{
+    align-content: center;
+    text-align: center;
+    margin-top: 0.5rem;
+    padding-top:0.5rem;
+    padding-bottom: 1rem;
+    font-size: 26px;
+    font-weight: lighter;
+}
+
+.tou{
+   margin-left: 22rem;margin-right: 2rem;
+cursor: pointer;}
+.ck{ margin-right: 2rem;
+    cursor: pointer;
+}
+.faq{ margin-right: 2rem; cursor: pointer; color: rgb(255, 255, 255);}
+
+.Privacy{
+    margin-left: 0rem;
+    cursor: pointer;
+}
+
+
+.tou:hover{
+    color: hotpink;
+}
+.ck:hover{
+    color:hotpink
+}
+.faq:hover{
+    color: hotpink;
+}
+.Privacy:hover{
+    color: hotpink;
+}
+
+
+@media only screen and (max-width: 887px) {
+.footer{
+    margin-top: 47rem;
+
+}
+
+
+.clickFooter{margin-left: -20rem;}
+}

@@ -208,6 +208,7 @@ margin-left: 1rem;
 .greycolor-bg-row2{
     background-color: rgba(181, 207, 212, 0);
     margin-bottom: 0rem;margin-top: 0rem;
+    
   
 }
 
@@ -264,6 +265,7 @@ margin-left: 1rem;
     display: flex;
     flex-direction: column;
     display: inline;
+    
 }
 
 
@@ -275,8 +277,8 @@ margin-left: 1rem;
 }
 
 .inner-how-btn{
-  margin-left: 24rem;
-  margin-right: 18rem;
+  margin-left: 22rem;
+  
 
 }
 
@@ -295,15 +297,16 @@ margin-left: 1rem;
     word-spacing: .1rem;
     border-radius: 2.5rem;
     width: 20rem;
-    height: 3.5rem;
+    height: 4.5rem;
 }
 
 .mob-img-how{
     visibility: hidden;
-    margin: 0;
+margin: 0;
     padding: 0;
     width: 0;
     height: 0;
+   
 }
 
 
@@ -320,9 +323,9 @@ overflow: hidden;
 
 .clickFooter{
     display: flex;
-    flex-direction: row-;
+    flex-direction: row;
     margin-bottom: 1rem;
-    margin-left: -3rem;
+    margin-left: -1rem;
   
     }
 .cc{
@@ -331,7 +334,7 @@ overflow: hidden;
     margin-top: 0.5rem;
     padding-top:0.5rem;
     padding-bottom: 1rem;
-    font-size: 22px;
+    font-size: 30px;
     font-weight: lighter;
 }
 
@@ -380,7 +383,7 @@ cursor: pointer;}
 
 @media only screen and (max-width: 887px) {
   
-  
+
   .popular-courses{
       align-content: left;
       text-align: left;
@@ -447,8 +450,9 @@ padding: 0;
 
 }
 .Allcourse{
-    margin-left:13% ;
+    margin-left:15% ;
     margin-right: 0rem;
+    margin-bottom: 2rem;
 
     
 }
@@ -460,6 +464,8 @@ padding: 0;
 
 .enrollnow{
     visibility: hidden;
+    width: 0;
+    height: 0;
 }
 .card1{
     width: 20rem;
@@ -509,23 +515,31 @@ margin-top: 1.5rem;
 
 
 .inner-how-img-txt-flex{
-margin-bottom: 0;
+margin: 0;
 padding: 0;
+visibility: hidden;
+
 }
 
 .img-inner-how{
    visibility: hidden;
    width: 0;
    height: 0;
+   
 }
 
-.mob-img-how{
-    visibility: visible;
-    width: 100%;
-    height: 10%;
-    
-    margin-top:-5rem;
+.how-work-txt{
+    visibility: hidden;
+    width: 0;
+    height: 0;
 }
+
+.whitebg-3{
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
 
 .how-btn{
  
@@ -540,15 +554,14 @@ padding: 0;
 
 .footer{
     background-color: rgba(0, 0, 0, 0.788); color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    
 }
 
 .clickFooter{
     display: flex;
     flex-direction: row;
     margin-bottom: 1.3rem;
-    
-    margin-left:3.2rem
+    margin-left:1rem;
 
     }
 .cc{
@@ -574,11 +587,6 @@ padding: 0;
 
 }
 
-@media only screen and (max-width: 352px) {
-    
-
-
-}
 
 
 }
