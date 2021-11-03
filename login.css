@@ -97,9 +97,10 @@ border-right: hidden;
 }
 
 @media only screen and (max-width: 887px) {
-  *{ 
-   }
-
+  
+.bg-white{
+overflow: hidden;
+}
 
     .container {
       overflow: visible;}
